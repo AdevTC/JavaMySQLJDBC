@@ -138,7 +138,7 @@ public class Controlador_JDBC implements DireccionCliDAO {
 
         } catch (SQLException e) {
             // Si ocurre una excepción, imprimimos un mensaje de error y devolvemos null
-            System.err.println("Ese cliente no está registrado");
+            System.err.println("Ese cliente no est\u00e1 registrado");
             return null;
         }
     }
@@ -176,7 +176,7 @@ public class Controlador_JDBC implements DireccionCliDAO {
             return direccion;
 
         } catch (SQLException e) {
-            System.err.println("Ese idDireccion no está registrado en ninguna de las direcciones.");
+            System.err.println("Ese idDireccion no est\u00e1 registrado en ninguna de las direcciones.");
             return null;
         }
     }
@@ -196,7 +196,7 @@ public class Controlador_JDBC implements DireccionCliDAO {
             return true;
         } catch (SQLException e) {
             // Si se produce una excepción, significa que la dirección no se ha eliminado
-            System.err.println("Ese id de Dirección no está registrado.");
+            System.err.println("Ese id de Dirección no est\u00e1 registrado.");
             return false;
         }
     }
@@ -225,7 +225,7 @@ public class Controlador_JDBC implements DireccionCliDAO {
 
         } catch (SQLException e) {
             // Si se produce una excepción, la capturamos y mostramos un mensaje de error
-            System.err.println("Error al registrar la dirección.");
+            System.err.println("Error al registrar la direcci\u00f3n.");
             return false;
         }
     }
@@ -265,7 +265,7 @@ public class Controlador_JDBC implements DireccionCliDAO {
             return true;
         } catch (SQLException e) {
             // Si se produce un error al ejecutar la sentencia SQL, se muestra un mensaje de error y se devuelve false
-            System.err.println("Error al actualizar el país");
+            System.err.println("Error al actualizar el pa\u00eds");
             return false;
         }
     }
@@ -301,7 +301,7 @@ public class Controlador_JDBC implements DireccionCliDAO {
             ps.executeUpdate();
             return true;
         } catch (SQLException e) {
-            System.err.println("Error al actualizar el número.");
+            System.err.println("Error al actualizar el n\u00famero.");
             return false;
         }
     }
@@ -317,7 +317,7 @@ public class Controlador_JDBC implements DireccionCliDAO {
             ps.executeUpdate();
             return true;
         } catch (SQLException e) {
-            System.err.println("Error al actualizar la población.");
+            System.err.println("Error al actualizar la poblaci\u00f3n.");
             return false;
         }
     }
@@ -333,7 +333,7 @@ public class Controlador_JDBC implements DireccionCliDAO {
             ps.executeUpdate();
             return true;
         } catch (SQLException e) {
-            System.err.println("Error al actualizar el código postal.");
+            System.err.println("Error al actualizar el c\u00f3digo postal.");
             return false;
         }
     }

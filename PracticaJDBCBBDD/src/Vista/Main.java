@@ -121,7 +121,7 @@ public class Main {
 									case 2 -> {
 										Scanner p = new Scanner(System.in);
 										Scanner p1 = new Scanner(System.in);
-										System.out.println("Ha utilizado la funci\u00f3n: Update País");
+										System.out.println("Ha utilizado la funci\u00f3n: Update Pa\u00eds");
 										System.out.print("Introduce el id de la direcci\u00f3n: ");
 										int idDir = p.nextInt();
 										System.out.print("Introduce el nuevo Pa\u00eds: ");
@@ -179,7 +179,7 @@ public class Main {
 									}
 									case 6 -> {
 										Scanner num = new Scanner(System.in);
-										System.out.println("Ha utilizado la funci\u00f3n: Update Numero");
+										System.out.println("Ha utilizado la funci\u00f3n: Update N\u00famero");
 										System.out.print("Introduzca el id de la direcci\u00f3n: ");
 										int idDir = num.nextInt();
 										System.out.print("Introduce el nuevo n\u00famero: ");
